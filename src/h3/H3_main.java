@@ -7,9 +7,6 @@ public class H3_main {
         Elsa.setGebJahr(2012);
         Elsa.setAlter();
 
-//        Mensch Anna = new Mensch("Anna", 2010, 15);
-
-
         System.out.printf("Name: %s, \nGeburtsjahr: %d, \nAlter: %d%n", Elsa.getName(), Elsa.getGebJahr(), Elsa.getAlter());
     }
 }

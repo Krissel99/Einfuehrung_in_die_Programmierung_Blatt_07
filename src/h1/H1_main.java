@@ -4,9 +4,10 @@ package h1;
 public class H1_main {
     public static void main(String[] args) {
         Zahl meineZahl = new Zahl();
-        meineZahl.num = 160;
-
-//        Zahl neueZahl = new Zahl(42);
+        meineZahl.num = 60;
+        meineZahl.setEven();
+        meineZahl.setSmall();
+        meineZahl.setPositive();
 
         System.out.println("Nummer: "+meineZahl.num);
         System.out.println("Gerade: "+meineZahl.even);

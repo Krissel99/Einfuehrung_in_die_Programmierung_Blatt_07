@@ -20,12 +20,11 @@ public class H2_main {
         return a;
     }
 
-
     public static void main(String[] args) {
-        int[] a     = {2, 7, 1, 9};
-        int[] b     = {2, 7, 1, 9};
-        int   start = 3;
-        int   end   = 2;
+        int[] a     = {2, 7, 1, 4};
+        int[] b     = {5, 6, 7};
+        int   start = 2;
+        int   end   = 4;
         System.out.printf("Rückgabe von change(%s, %s, %d, %d): ist %s%n", Arrays.toString(a), Arrays.toString(b), start, end,
                           Arrays.toString(change(a, b, start, end)));
 
