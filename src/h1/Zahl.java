@@ -3,21 +3,12 @@ package h1;
 import java.lang.Math;
 
 public class Zahl {
+
     public boolean even;
     public boolean small;
     public boolean positive;
 
     public int num;
-
-    public Zahl() {
-        setEven();
-        setSmall();
-        setPositive();
-    }
-
-    public Zahl(int num) {
-        this.num = num;
-    }
 
     public void setEven() {
         this.even = Math.abs(this.num)%2 == 0;

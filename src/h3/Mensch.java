@@ -6,21 +6,6 @@ public class Mensch {
     public int gebJahr;
     public int alter;
 
-//    public Mensch() {
-//    }
-//
-//    public Mensch(String name, int gebJahr) {
-//        this.name    = name;
-//        this.gebJahr = gebJahr;
-//        this.alter   = 2025-gebJahr;
-//    }
-//
-//    public Mensch(String name, int gebJahr, int alter) {
-//        this.name    = name;
-//        this.gebJahr = gebJahr;
-//        this.alter   = alter;
-//    }
-
     public void setName(String name) {
         this.name = name;
     }
